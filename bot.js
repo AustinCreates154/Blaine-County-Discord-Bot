@@ -3,6 +3,8 @@ var bot = new Discord.Client();
 const fs = require('fs');
 const config = require(`./config.json`);
 var prefix = config.prefix
+var developer = config.developer
+var owner = config.owners
 
 bot.commands = new Discord.Collection();
 
